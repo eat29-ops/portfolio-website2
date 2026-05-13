@@ -1,0 +1,84 @@
+body {
+  font-family: system-ui, Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* NAVIGATION */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #4da6ff;
+}
+
+/* MAIN CONTENT */
+main {
+  padding: 20px;
+}
+
+/* PROJECT CARDS */
+.card {
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+
+  border-radius: 10px;
+
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* BUTTON */
+button {
+  background-color: #4da6ff;
+  color: white;
+
+  border: none;
+  padding: 10px 15px;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e90ff;
+}
+
+/* MESSAGE */
+#message {
+  color: black;
+}
+
+#message.alt {
+  color: blue;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+}
